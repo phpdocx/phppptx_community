@@ -1,0 +1,33 @@
+{
+    "name": "phpdocx/phppptx_community",
+    "description": "phppptx - Create PowerPoint PPTX with PHP",
+    "keywords": [
+        "phppptx",
+        "pptx",
+        "powerpoint",
+        "OOXML",
+        "php"
+    ],
+    "homepage": "https://www.phppptx.com",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "NarceaLabs SL"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "Classes/Phppptx"
+        ]
+    },
+    "require": {
+        "php": ">=5.6",
+        "ext-dom": "*",
+        "ext-xml": "*",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "ext-zip": "*"
+    }
+}

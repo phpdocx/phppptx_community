@@ -1,0 +1,2 @@
+The samples included in the package use the savePptx method to generate the PPTX. This method saves the PPTX output in the file system, the file is not downloaded.
+To generate and download a PPTX, the savePptxAndDownload method can be used.
