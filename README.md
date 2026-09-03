@@ -39,6 +39,22 @@ This loads the library classes automatically so you can use the phppptx classes 
 
 The examples folder contains self-contained samples for all the public methods.
 
+For example, to create a PPTX file containing text with some styles:
+
+```php
+$pptx = new Phppptx\Create\CreatePptx();
+
+$content = array(
+    'text' => 'My custom title',
+    'bold' => true,
+    'font' => 'Arial',
+    'fontSize' => 60,
+);
+$pptx->addText($content, array('placeholder' => array('name' => 'Title 1')));
+
+$pptx->savePptx('output');
+```
+
 ## Changelog
 
 See CHANGELOG.md for release notes.
